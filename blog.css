@@ -1,0 +1,48 @@
+:root{
+    --headerbackground: #e9c3c3;
+    --palepinkbackground: #cca0a0;
+    --shadow1: #cfc9c9;
+    --shadow2: #ffffff;
+    --gradient1: #dbd4d4;
+    --gradient2: #fffdfd;
+    --gray: #17181B;
+    
+}
+
+@font-face {
+    font-family: bubbles;
+    src: url("cute.ttf") format("opentype");
+  }
+
+header{
+    text-align: center;
+    color: #17181B;
+    font-family: bubbles;
+    padding: 10px;
+    font-size: 30px;
+    background-color: var(--palepinkbackground);
+    border-radius: 10px;
+}
+
+h1{
+    border-radius: 10px;
+    background-color: var(--gray);
+    color: var(--gradient1);
+    padding: 10px;
+    width:85%;
+    float: center;
+
+}
+p{
+    font-size: 18px;
+}
+
+#codeBlogEntry{
+    background-color: var(--palepinkbackground);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 0px 10px 10px 10px;
+    outline:5px #17181B;
+    width:90%;
+    float: right;
+}

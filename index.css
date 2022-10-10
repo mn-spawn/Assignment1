@@ -1,0 +1,77 @@
+/*  Hi I've been a little obsessed with neumorphism and this website is super sick:
+
+    https://neumorphism.io/#e0e0e0
+
+    it generates little snippets of css to use so highly reccomend and this is me 
+    citing it! 
+
+*/
+
+:root{
+    --headerbackground: #e9c3c3;
+    --palepinkbackground: #f3ecec;
+    --shadow1: #cfc9c9;
+    --shadow2: #ffffff;
+    --gradient1: #dbd4d4;
+    --gradient2: #fffdfd;
+    
+}
+
+@font-face {
+    font-family: bubbles;
+    src: url("cute.ttf") format("opentype");
+  }
+
+.site-container{
+    padding-left: 0;
+    padding-top: 0;
+}
+
+header{
+    border-radius: 20px;
+    width:100%;
+    position: relative;
+
+
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: bubbles;
+    background-color: var(--headerbackground);
+}
+
+#info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #fffdfd, #dbd4d4);
+    box-shadow:  20px 20px 60px #cfc9c9,
+             -20px -20px 60px #ffffff;
+}
+
+img{
+    border-radius: 50px;
+    background: linear-gradient(145deg, --gradient1, --gradient2);
+    box-shadow:  20px 20px 60px var(--shadow1),
+             -20px -20px 60px var(--shadow2);
+}
+
+#image{
+    text-align: center;
+}
+
+#other{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, --gradient1, --gradient2);
+    box-shadow:  20px 20px 60px var(--shadow1),
+             -20px -20px 60px var(--shadow2);
+}
+
+
