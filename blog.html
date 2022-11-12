@@ -76,6 +76,30 @@
                 to take away from this assignment as well.
             </p>
         </div>
+        <div id="codeBlogEntry">
+            <h1>Assignment 4 - 11/11</h1>
+            <p> 
+                This was the first assignment where I didn't have prior experience with the material. This made it a little bit harder but within the first
+                day or so I nailed down the idea that there was going to need to be a long strand of if-else's. I have worked with web sockets before which have
+                the same kind of feel (creating the server, checking the network messages, e.t.c) but that didn't quite translate. 
+                <br>
+                <br>
+                The biggest challenge I faced was the response.end() placement. I had res.end() after every single file read so I my files would just not apply
+                after I loaded the first one (index.html). This was very frustrating because I kept commenting out and commenting the statements back in and individually
+                they would work but not all together. This was pretty mind-boggling for a little bit. I think the issue came from misinterpreting that res.end() didn't 
+                mean that the file was done reading but that it was actually the end of the changes to the page. Now I know why it only read the first file :)
+                <br>
+                <br>
+                The biggest resource that helped me solve this problem was lecture. I skimmed through the lecture recording on Thursday looking for a clue and heard 
+                Professor Hess say that res.end() basically says "no more changes to the file." I decided to try moving res.end() to the bottom of the if-else's and
+                it worked!
+                <br>
+                <br>
+                The resources I used were mainly lecture this week, and the resources also linked on the website. After hearing that the assignment was meant to be 
+                on the shorter side I figured the answers to how to do this specific assignment would be more applicable and I didn't feel the need to do much 
+                intensive googling.
+            </p>
+        </div>
 
     </body>
 
